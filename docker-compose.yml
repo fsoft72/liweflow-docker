@@ -1,0 +1,28 @@
+version: '3.1'
+
+services:
+  nginx:
+    build:
+      context: ./docks/nginx
+    image: nginx-server:0.1.0
+    ports:
+      - 8080:8080
+    #depends_on:
+    #  - pyxie-mongo
+
+  arangodb:
+    image: arangodb:3.9
+    environment:
+      - ARANGO_NO_AUTH=1
+    ports:
+      - 8529:8529
+
+
+  flowsync:
+    build:
+      context: ./docks/flowsync
+    image: flowsync:0.1.0
+    ports:
+      - 12000:12000
+    depends_on:
+      - arangodb
