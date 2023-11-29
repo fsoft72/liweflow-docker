@@ -51,7 +51,7 @@
 	"database": {
 		"type": "arangodb",
 		"dbname": "FLOWSYNC",
-		"server": "arangodb",
+		"server": "http://arangodb:8529",
 		"port": 27017
 	},
 	"auth": {
