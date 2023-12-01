@@ -105,14 +105,6 @@
 						"admin"
 					]
 				}
-			},
-			{
-				"email": "user@example.com",
-				"password": "UserExample2!",
-				"name": "Norman",
-				"lastname": "User",
-				"enabled": true,
-				"visible": true
 			}
 		]
 	},
