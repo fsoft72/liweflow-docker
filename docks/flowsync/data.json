@@ -93,10 +93,10 @@
 		},
 		"users": [
 			{
-				"username": "..admin",
-				"email": "admin@gmail.com",
-				"password": "UserAdmin1!",
-				"name": "Johnny",
+				"username": "admin",
+				"email": "admin@example.com",
+				"password": "FlowAdmin123$$",
+				"name": "Flow",
 				"lastname": "Admin",
 				"enabled": true,
 				"visible": false,
