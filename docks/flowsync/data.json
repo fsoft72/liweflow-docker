@@ -27,7 +27,7 @@
 		"temp_dir": "/path/to/server/static/temp"
 	},
 	"security": {
-		"secret": "Th353cr3t!",
+		"secret": "R34l53cr3t!",
 		"enable_cookie": true,
 		"cookie": "auth",
 		"enable_token": true,
@@ -46,7 +46,7 @@
 			"request_interval": 5,
 			"wait_time": 1000
 		},
-		"remote": "l1w3123!!"
+		"remote": "R3m0t3!123!"
 	},
 	"database": {
 		"type": "arangodb",
